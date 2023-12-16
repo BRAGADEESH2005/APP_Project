@@ -18,6 +18,7 @@
     padding: 2%;
 }
 
+
 .head_text {
     margin-top: 1.25rem; /* Equivalent to mt-5 in Tailwind */
     font-size: 3.75rem; /* Equivalent to text-5xl in Tailwind */
@@ -45,6 +46,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 65vh;
     
 }
 section{
@@ -53,4 +55,18 @@ section{
     align-items: center;
     justify-content: center;
     margin: 2%;
+}
+
+@media screen and (max-width:980px){
+    .head_text{
+        font-size: 2rem;
+    }
+    .description{
+        font-size: 1.5rem;
+    }
+    .app{
+        width: 100vw;
+    }
+    
+    
 }

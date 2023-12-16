@@ -1,0 +1,45 @@
+.question-box{
+    border: 1px solid #201e1e;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+
+.prob-stat:hover{
+    cursor: pointer;
+    background-color: #f2f2f2;
+}
+
+
+
+.prob-type {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 5px;
+    position: relative;
+    transition: border-color 0.3s ease; /* Smooth transition for the border color */
+    width: 100vw;
+    text-align: center;
+  }
+  
+  .prob-type:hover {
+    border-color: #555555; /* Change the border color on hover */
+  }
+
+.prob-stat{
+    border: 1px solid #201e1e;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 40vw;
+    text-decoration: none;
+    color: black;
+}

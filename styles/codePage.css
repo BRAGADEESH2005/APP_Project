@@ -1,0 +1,88 @@
+.code-page{
+    display: flex;
+    justify-content: space-between;
+    height: 65vh;
+    width: 90vw;
+
+}
+.problem-stat{
+    flex:1;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    background-color:#EFEFEF;
+    
+}
+
+
+.pheading {
+    font-family: 'Montserrat', sans-serif; /* Montserrat is a stylish sans-serif font for headings */
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black; /* Heading color */
+    margin-bottom: 5px;
+    border-bottom: 1px solid #776565 ;
+  }
+  .hdesc{
+    font-family: 'Montserrat', sans-serif; /* Montserrat is a stylish sans-serif font for headings */
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black; /* Heading color */}
+  
+  .pdescription {
+    font-family: 'Open Sans', sans-serif; /* Open Sans is a versatile sans-serif font for descriptions */
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #3F3F3F; /* Description color */
+  }
+  
+  .pconstraints {
+    font-family: 'Lato', sans-serif; /* Lato is a clean sans-serif font for constraints */
+    font-size: 1rem;
+    color: #676464; /* Constraints color */
+  }
+.code-stat{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+textarea{
+    width: 80%;
+    height: 90%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif; /* Open Sans is a versatile sans-serif font for descriptions */
+    resize: none;
+    outline: none;
+    margin-bottom: 2%;
+}
+
+.submitbtn{
+    width: 30%;
+    height: 10%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif; /* Open Sans is a versatile sans-serif font for descriptions */
+    resize: none;
+    outline: none;
+    margin-bottom: 2%;
+    background-color: #8ca5c0;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.submitbtn:hover{
+    background-color: #3f3f3f;
+}

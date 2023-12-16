@@ -33,6 +33,16 @@ hr{
     margin: 0;
 }
 
+.user-detail p{
+    margin-right: 10px;
+    font-size: large;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;
+    color: #333333;
+    font-weight: bold;
+}
+
 .logo{
     display: flex;
     align-items: center;
@@ -74,7 +84,7 @@ hr{
     color: #000; /* Equivalent to hover:text-black in Tailwind */
     cursor: pointer;
 }
-.mobile_nav{
+.mobile-nav{
     display: none;
 }
 
@@ -82,4 +92,39 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width : 980px) {
+    .mobile-nav{
+        width: 90vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar{
+        display: none;
+    }
+    .links{
+        position: absolute;
+        top: 10%;
+        text-decoration: none;
+       
+        right: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .links ul{
+        list-style-type: none;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 20px;
+        transition: transform 0.3s ease-in-out; /* Add a transition for a smooth effect */
+    }
+    .links ul li{
+        margin: 10px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid black;
+    }
 }
