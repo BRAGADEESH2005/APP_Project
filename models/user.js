@@ -17,6 +17,10 @@ const userSchema = new Schema({
 	image: {
 		type: String,
 	},
+	score: {
+		type: Number,
+		default: 0,
+	},
 });
 
 const User = models.User || model("User", userSchema);
